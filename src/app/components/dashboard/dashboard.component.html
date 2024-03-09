@@ -1,0 +1,12 @@
+<div class="wrapper-dash">
+  <div>
+    <h2>Welcome, <span>{{username}}</span> <br> you are logged in.
+      <section class="info">
+        <span> <i>name: </i>{{user?.firstName}}</span>
+        <span><i>surname: </i>{{user?.lastName}}</span>
+        <span><i>job:</i> {{user?.jobID}}</span>
+      </section>
+    </h2>
+    <button type="button" (click)="logout()">log out</button>
+  </div>
+</div>

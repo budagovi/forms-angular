@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+main {
+  width: 100%;
+  min-height: 100dvh;
+  display: grid;
+}
