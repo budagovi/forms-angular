@@ -8,7 +8,7 @@ import { ModalComponent } from '../modal/modal.component';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss'],
+  styleUrls: ['./login.component.css'],
   standalone: true,
   imports: [ReactiveFormsModule, CommonModule, RouterLink, ModalComponent]
 })

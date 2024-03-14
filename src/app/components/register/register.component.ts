@@ -14,7 +14,7 @@ import { ModalComponent } from '../modal/modal.component';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.scss'],
+  styleUrls: ['./register.component.css'],
   standalone: true,
   imports: [ReactiveFormsModule, CommonModule, RouterLink, ModalComponent],
 })

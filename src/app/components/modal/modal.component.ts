@@ -4,7 +4,7 @@ import { Router, RouterLink } from '@angular/router';
 @Component({
   selector: 'app-modal',
   templateUrl: './modal.component.html',
-  styleUrls: ['./modal.component.scss'],
+  styleUrls: ['./modal.component.css'],
   standalone: true,
   imports: [RouterLink]
 })
